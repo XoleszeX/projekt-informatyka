@@ -169,7 +169,7 @@ class Homescreen extends StatelessWidget {
                 ),
                 SizedBox(height: 30),
                 Padding(
-                  padding: EdgeInsets.only(left: 40, right: 40),
+                  padding: EdgeInsets.only(left: 40, right: 40, bottom: 40),
                   child: MaterialButton(
                     height: 50,
                     onPressed: () {
