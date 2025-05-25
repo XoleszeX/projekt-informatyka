@@ -25,7 +25,7 @@ class Graphic extends StatelessWidget {
                 Center(
                   child: Column(
                     children: [
-                      Image.asset("images/dysk.png", width: 250),
+                      Image.asset("images/gc.png", width: 250),
                       SizedBox(height: 20),
                       Text(
                         "Karta Graficzna",

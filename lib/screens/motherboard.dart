@@ -61,30 +61,34 @@ class Motherboard extends StatelessWidget {
                         ),
                       ),
                       SizedBox(height: 20),
-                      Text(
-                        "1. Wybierz odpowiednie gniazdo procesora (Socket)" +
-                            "\n" +
-                            "2. Zwróć uwagę na pamięć RAM – ilość i typ slotów"
-                                "\n" +
-                            "\n" +
-                            "3. Zwróć uwagę na obsługiwaną pamięci RAM"
-                                "\n" +
-                            "\n" +
-                            "4. Zwróć uwagę na wbudowane Wi-Fi i Bluetooth"
-                                "\n" +
-                            "\n" +
-                            "5. Zwróć uwagę na ilość i rodzaje portów USB"
-                                "\n" +
-                            "\n" +
-                            "6. Zwróć uwagę na jakość sekcji zasilania (VRM)"
-                                "\n" +
-                            "\n" +
-                            "7. Zwróć uwagę na format płyty (rozmiar)"
-                                "\n" +
-                            "\n" +
-                            "8. Zwróć uwagę na funkcje BIOS-u i aktualizację",
+                      Padding(
+                        padding: EdgeInsets.all(30),
+                        child: Text(
+                          "1. Wybierz odpowiednie gniazdo procesora (Socket)" +
+                              "\n" +
+                              "\n" +
+                              "2. Zwróć uwagę na pamięć RAM – ilość i typ slotów"
+                                  "\n" +
+                              "\n" +
+                              "3. Zwróć uwagę na obsługiwaną pamięci RAM"
+                                  "\n" +
+                              "\n" +
+                              "4. Zwróć uwagę na wbudowane Wi-Fi i Bluetooth"
+                                  "\n" +
+                              "\n" +
+                              "5. Zwróć uwagę na ilość i rodzaje portów USB"
+                                  "\n" +
+                              "\n" +
+                              "6. Zwróć uwagę na jakość sekcji zasilania (VRM)"
+                                  "\n" +
+                              "\n" +
+                              "7. Zwróć uwagę na format płyty (rozmiar)"
+                                  "\n" +
+                              "\n" +
+                              "8. Zwróć uwagę na funkcje BIOS-u i aktualizację",
 
-                        style: TextStyle(color: Colors.white, fontSize: 15),
+                          style: TextStyle(color: Colors.white, fontSize: 15),
+                        ),
                       ),
                     ],
                   ),
